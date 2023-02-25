@@ -30,3 +30,7 @@ Feel free to browse my repositories and projects to get a sense of my skills and
 ![C#](https://img.shields.io/badge/-Csharp-black)
 ![.NET](https://img.shields.io/badge/-.NET-blue)
 ![Python](https://img.shields.io/badge/-python-gold)
+ 
+</div>
+
+[GitLab](https://gitlab.com/enrico.schintu) | [Web Site](http://enricoschintu.it)
