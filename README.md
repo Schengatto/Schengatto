@@ -9,17 +9,24 @@ In addition to my professional interests, I'm also a gamer at heart and enjoy cr
 
 Feel free to browse my repositories and projects to get a sense of my skills and interests. If you have any questions or ideas for collaboration, don't hesitate to reach out. Let's build something great together!
 
-<!--
-**Schengatto/Schengatto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align=center>
+<h2>My skills 🧑‍💻</h2>
 
-Here are some ideas to get you started:
+![Git](https://img.shields.io/badge/-Git-black)
+![JavaScript](https://img.shields.io/badge/-Javascript-yellow)
+![TypeScript](https://img.shields.io/badge/-Typescript-blue)
+![Docker](https://img.shields.io/badge/-Docker-cyan)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![HTML5](https://img.shields.io/badge/-HTML5-red)
+![CSS3](https://img.shields.io/badge/-CSS3-blue)
+![SASS](https://img.shields.io/badge/-SASS-magenta)
+![Vue](https://img.shields.io/badge/-Vue-green)
+![Angular](https://img.shields.io/badge/-Angular-red)
+![React](https://img.shields.io/badge/-React-blue)
+
+![Node](https://img.shields.io/badge/-Node-green)
+![Java](https://img.shields.io/badge/-Java-purple)
+![Spring](https://img.shields.io/badge/-Spring-green)
+![C#](https://img.shields.io/badge/-Csharp-black)
+![.NET](https://img.shields.io/badge/-.NET-blue)
+![Python](https://img.shields.io/badge/-python-gold)
