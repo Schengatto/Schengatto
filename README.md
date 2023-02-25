@@ -1,5 +1,6 @@
 
 <img src="./media/low.gif" width="100%" />
+
 ### Welcome to my Github profile! 👋
 
  I'm passionate about developing software from every angle, covering both the backend and frontend, as well as development and analysis. I'm always eager to learn and research new technologies to stay up-to-date with the latest trends.
