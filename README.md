@@ -33,4 +33,4 @@ Feel free to browse my repositories and projects to get a sense of my skills and
  
 </div>
 
-[GitLab](https://gitlab.com/enrico.schintu) | [Web Site](http://enricoschintu.it)
+[GitLab](https://gitlab.com/enrico.schintu) | [Web Site](https://enricoschintu.com)
