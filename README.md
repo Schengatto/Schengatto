@@ -43,11 +43,11 @@ query, shaping an API, or designing a distributed system.
 | Project | What it is | Stack |
 | --- | --- | --- |
 | **[git-smith](https://github.com/Schengatto/git-smith)** | Cross-platform Git GUI inspired by GitExtensions: interactive commit graph with colored lanes, line-level staging, side-by-side diffs, drag-and-drop interactive rebase and dockable panels. | Electron · React · TypeScript · Vite |
+| **[mailstore-linux](https://github.com/Schengatto/mailstore-linux)** | Portable, read-only IMAP email archiver: mirrors your mailboxes into a deduplicated, full-text-searchable local archive that fits in a single relocatable folder. It never writes to, flags or deletes anything on the server. | Electron · React · TypeScript · SQLite |
 | **[trade-republic-analyzer](https://github.com/Schengatto/trade-republic-analyzer)** · [live](https://schengatto.github.io/trade-republic-analyzer/) | Drop in a Trade Republic CSV export and get realized P&L matched FIFO, cumulative trend, monthly figures, holding times and a per-security breakdown. The file never leaves the browser. | TypeScript · client-side only |
-| **[libre-city](https://github.com/Schengatto/libre-city)** | Multiplayer browser sandbox: a city explored on foot or by vehicle, simulated traffic and police, rooms, leaderboard and automatic reconnection over a WebSocket server. Nothing to install. | JavaScript · Canvas 2D · WebSocket · Node.js · PWA |
+| **[libre-city](https://github.com/Schengatto/libre-city)** | GTA-style sandbox game that runs in the browser on desktop and mobile, with multiplayer matches: a city explored on foot or by vehicle, simulated traffic and police, rooms, leaderboard and automatic reconnection over a WebSocket server. Nothing to install. | JavaScript · Canvas 2D · WebSocket · Node.js · PWA |
 | **[create-agentic-project](https://github.com/Schengatto/create-agentic-project)** | Context-aware CLI that scaffolds agent-ready projects: instruction rules, agentic memory, and code-review, security and testing gates. | TypeScript · CLI |
 | **[youtube-player](https://github.com/Schengatto/youtube-player)** · [live](https://tube-too.netlify.app) | Tube-Too: a distraction-free YouTube PWA with saved channels, playlists, bookmarked moments and interest-based recommendations. | Vue 3 · PWA |
-| **[quote-plus](https://github.com/Schengatto/quote-plus)** | Product quote management for authenticated users, localized in five languages. | Next.js · React · TypeScript |
 
 More projects, including the ones that live outside GitHub, are on [enricoschintu.com](https://enricoschintu.com).
 
