@@ -1,7 +1,8 @@
 <h1 align="center">Enrico Schintu</h1>
 
 <p align="center">
-  <b>Senior Software Engineer</b> — full-stack, cloud architecture, finance &amp; banking systems<br>
+  <b>Senior Software Engineer</b><br>
+  Full-stack, cloud architecture, finance &amp; banking systems<br>
   Italy
 </p>
 
@@ -17,43 +18,53 @@
 
 ## About
 
-I build software end to end — from the database schema up to the interface — because following a
-problem across the whole stack is the only way I know to actually understand it.
+I work across the whole stack, from the database schema up to the interface. Not because I want to
+touch everything, but because following a problem all the way through is the only way I know to
+actually understand it.
 
-Before writing code I want to know what we are building and why, where the real constraints sit, and
-where the complexity is actually hiding. I care about cloud architecture, performance, and code that
-still reads well six months after it was written.
+So I ask the boring questions first. What are we building, and why. Where do the real constraints
+sit. Where is the complexity actually hiding, which is rarely where the first design assumed it
+would be.
 
-I think good software is almost always simpler than the first design that comes to mind, and that most
-of the skill is in resisting complexity until it is genuinely needed — whether that means tuning a
-query, shaping an API, or designing a distributed system.
+The rest is mostly restraint. The good version of a system is almost always simpler than the one I
+sketch first, and most of the skill is refusing complexity until it has earned its place. That holds
+whether I'm tuning a query or drawing the boundaries of a distributed system. I also want the code to
+still read well six months later, when I'm the one who has forgotten how it works.
 
 ## Currently
 
-- **Tech lead on the Libre Capital platform** — driving frontend and backend
-  engineering: architecture, implementation and delivery, including Web3 integration.
-- **Founder of [Codepress](https://codepress.it)**, an Italian software house building enterprise systems
-  for finance, banking, insurance and healthcare. Engagements with a closed scope: what is in, what is
-  out, what gets delivered, at what price. Its own product is **[Nezuyo](https://nezuyo.com)** — a value
-  investing platform for NASDAQ large caps with a stock screener, DCF/Graham/EPV fair value models,
-  Piotroski F-Score and earnings calendars — which I designed and built end to end.
-- **Mentoring teams** on software fundamentals, backend with Node &amp; Fastify, Nuxt &amp; Vue, and BDD with
-  Cucumber.
+My main engagement is tech lead on the Libre Capital platform, where I run frontend and backend
+engineering: architecture, implementation, delivery, and the Web3 integration.
+
+Alongside that I founded [Codepress](https://codepress.it), an Italian software house building
+enterprise systems for finance, banking, insurance and healthcare. Every engagement has a closed
+scope: what is in, what is out, what gets delivered, at what price. Codepress also has a product of
+its own, [Nezuyo](https://nezuyo.com), a value investing platform for NASDAQ large caps with a stock
+screener, DCF/Graham/EPV fair value models, Piotroski F-Score and earnings calendars. I designed and
+built that one end to end.
+
+The third thing that takes my time is mentoring teams: software fundamentals, backend with Node and
+Fastify, Nuxt and Vue, and BDD with Cucumber.
 
 ## Selected projects
+
+Side projects are where I get to pick the constraints myself. These are the ones that made it out of
+the branch.
 
 | Project | What it is | Stack |
 | --- | --- | --- |
 | **[git-smith](https://github.com/Schengatto/git-smith)** | Cross-platform Git GUI inspired by GitExtensions: interactive commit graph with colored lanes, line-level staging, side-by-side diffs, drag-and-drop interactive rebase and dockable panels. | Electron · React · TypeScript · Vite |
-| **[mailstore-linux](https://github.com/Schengatto/mailstore-linux)** | Portable, read-only IMAP email archiver: mirrors your mailboxes into a deduplicated, full-text-searchable local archive that fits in a single relocatable folder. It never writes to, flags or deletes anything on the server. | Electron · React · TypeScript · SQLite |
+| **[mailstore-linux](https://github.com/Schengatto/mailstore-linux)** | Portable, read-only IMAP email archiver. It mirrors your mailboxes into a deduplicated, full-text-searchable local archive that fits in a single relocatable folder, and never writes to, flags or deletes anything on the server. | Electron · React · TypeScript · SQLite |
 | **[trade-republic-analyzer](https://github.com/Schengatto/trade-republic-analyzer)** · [live](https://schengatto.github.io/trade-republic-analyzer/) | Drop in a Trade Republic CSV export and get realized P&L matched FIFO, cumulative trend, monthly figures, holding times and a per-security breakdown. The file never leaves the browser. | TypeScript · client-side only |
 | **[libre-city](https://github.com/Schengatto/libre-city)** | GTA-style sandbox game that runs in the browser on desktop and mobile, with multiplayer matches: a city explored on foot or by vehicle, simulated traffic and police, rooms, leaderboard and automatic reconnection over a WebSocket server. Nothing to install. | JavaScript · Canvas 2D · WebSocket · Node.js · PWA |
-| **[create-agentic-project](https://github.com/Schengatto/create-agentic-project)** | Context-aware CLI that scaffolds agent-ready projects: instruction rules, agentic memory, and code-review, security and testing gates. | TypeScript · CLI |
-| **[youtube-player](https://github.com/Schengatto/youtube-player)** · [live](https://tube-too.netlify.app) | Tube-Too: a distraction-free YouTube PWA with saved channels, playlists, bookmarked moments and interest-based recommendations. | Vue 3 · PWA |
+| **[Markets Gazette](https://marketsgazette.cloud)** | An AI-powered financial newspaper that reads the web for you. It pulls articles from RSS feeds, has Gemini classify each one as positive, negative or neutral for the asset it affects, then groups the day into a scannable feed with a per-asset consensus signal and a daily digest. | Nuxt 4 · Vue 3 · TypeScript · PostgreSQL · Gemini |
+| **[youtube-player](https://github.com/Schengatto/youtube-player)** · [live](https://tube-too.netlify.app) | Tube-Too, a distraction-free YouTube PWA with saved channels, playlists, bookmarked moments and interest-based recommendations. | Vue 3 · PWA |
 
 More projects, including the ones that live outside GitHub, are on [enricoschintu.com](https://enricoschintu.com).
 
 ## Stack
+
+What I reach for, roughly in order of how often I reach for it.
 
 **Frontend**
 
