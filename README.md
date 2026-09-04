@@ -34,7 +34,9 @@ query, shaping an API, or designing a distributed system.
   engineering: architecture, implementation and delivery, including Web3 integration.
 - **Founder of [Codepress](https://codepress.it)**, an Italian software house building enterprise systems
   for finance, banking, insurance and healthcare. Engagements with a closed scope: what is in, what is
-  out, what gets delivered, at what price.
+  out, what gets delivered, at what price. Its own product is **[Nezuyo](https://nezuyo.com)** — a value
+  investing platform for NASDAQ large caps with a stock screener, DCF/Graham/EPV fair value models,
+  Piotroski F-Score and earnings calendars — which I designed and built end to end.
 - **Mentoring teams** on software fundamentals, backend with Node &amp; Fastify, Nuxt &amp; Vue, and BDD with
   Cucumber.
 
