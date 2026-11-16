@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="110" viewBox="0 0 900 110" role="img" aria-label="How I work: business requirements, functional and technical analysis, implementation and testing, delivery to production.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b2e"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4493f8"/><stop offset="1" stop-color="#a371f7"/></linearGradient></defs>
+<style>
+  .fade{animation:fade .7s ease-out backwards}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  .pulse{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+  .flow{fill:none;stroke:#656c76;stroke-width:1.6;stroke-dasharray:4 6;animation:flow 1.4s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-20}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  .step{font:700 11px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#4493f8;letter-spacing:1.2px}
+  .title{font:700 22px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#e6edf3}
+  .label{font:400 13px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#9198a1}
+</style>
+<g class="fade" style="animation-delay:0.00s">
+  <rect x="0.5" y="0.5" width="195" height="109" rx="10" fill="#151b23" stroke="#30363d"/>
+  <text class="step" x="18" y="26">STEP 01</text>
+  <text class="title" x="18" y="56">Requirements</text>
+  <text class="label" x="18" y="80">business goals, users</text>
+  <text class="label" x="18" y="98">and constraints</text>
+  <path class="flow" d="M202 55 H227"/>
+  <path d="M221 49 l6 6 l-6 6" fill="none" stroke="#656c76" stroke-width="1.6"/>
+</g>
+<g class="fade" style="animation-delay:0.20s">
+  <rect x="235.5" y="0.5" width="195" height="109" rx="10" fill="#151b23" stroke="#30363d"/>
+  <text class="step" x="253" y="26">STEP 02</text>
+  <text class="title" x="253" y="56">Analysis</text>
+  <text class="label" x="253" y="80">functional and technical:</text>
+  <text class="label" x="253" y="98">scope, architecture, risks</text>
+  <path class="flow" d="M437 55 H461"/>
+  <path d="M455 49 l6 6 l-6 6" fill="none" stroke="#656c76" stroke-width="1.6"/>
+</g>
+<g class="fade" style="animation-delay:0.40s">
+  <rect x="469.5" y="0.5" width="195" height="109" rx="10" fill="#151b23" stroke="#30363d"/>
+  <text class="step" x="487" y="26">STEP 03</text>
+  <text class="title" x="487" y="56">Build</text>
+  <text class="label" x="487" y="80">implementation with</text>
+  <text class="label" x="487" y="98">tests first and CI gates</text>
+  <path class="flow" d="M671 55 H696"/>
+  <path d="M690 49 l6 6 l-6 6" fill="none" stroke="#656c76" stroke-width="1.6"/>
+</g>
+<g class="fade" style="animation-delay:0.60s">
+  <rect x="704.5" y="0.5" width="195" height="109" rx="10" fill="#151b23" stroke="#30363d"/>
+  <text class="step" x="722" y="26">STEP 04</text>
+  <text class="title" x="722" y="56">Delivery</text>
+  <text class="label" x="722" y="80">to production, then</text>
+  <text class="label" x="722" y="98">monitoring and iteration</text>
+  
+</g>
+</svg>

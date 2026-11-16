@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-label="People in the browser and coding agents over MCP share one Workspace board, linked to Archivist memory and to parallel agent runs.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef4ff"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0969da"/><stop offset="1" stop-color="#8250df"/></linearGradient></defs>
+<style>
+  .fade{animation:fade .7s ease-out backwards}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  .pulse{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+  .flow{fill:none;stroke:#8c959f;stroke-width:1.6;stroke-dasharray:4 6;animation:flow 1.4s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-20}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  .title{font:600 15px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#1f2328}
+  .sub{font:400 13px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#59636e}
+  .center{font:700 17px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#1f2328}
+</style>
+<path class="flow" d="M250 62 C292 62 293 105 335 105"/>
+<path class="flow" d="M250 188 C292 188 293 145 335 145"/>
+<path class="flow" d="M565 105 C607 105 608 62 650 62"/>
+<path class="flow" d="M565 145 C607 145 608 188 650 188"/>
+<g class="fade">
+  <rect x="10" y="30" width="240" height="64" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text class="title" x="28" y="58">People</text>
+  <text class="sub" x="28" y="80">browser UI, server-rendered</text>
+</g>
+<g class="fade">
+  <rect x="10" y="156" width="240" height="64" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text class="title" x="28" y="184">Coding agents</text>
+  <text class="sub" x="28" y="206">Claude Code, Codex, Cursor</text>
+</g>
+<g class="fade">
+  <rect x="335" y="55" width="230" height="140" rx="10" fill="#ffffff" stroke="url(#accent)" stroke-width="2"/>
+  <text class="title" x="353" y="83">Codepress Workspace</text>
+  <text class="sub" x="353" y="105">board with DoR / DoD gates</text><text class="sub" x="353" y="124">roadmaps, milestones, reports</text><text class="sub" x="353" y="143">MCP · SQLite · self-hosted</text>
+</g>
+<g class="fade">
+  <rect x="650" y="30" width="240" height="64" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text class="title" x="668" y="58">Archivist</text>
+  <text class="sub" x="668" y="80">shared memory per project</text>
+</g>
+<g class="fade">
+  <rect x="650" y="156" width="240" height="64" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text class="title" x="668" y="184">Agent runs</text>
+  <text class="sub" x="668" y="206">parallel, one LLM gateway each</text>
+</g>
+<circle class="pulse" cx="292" cy="84" r="4" fill="#0969da"/>
+<circle class="pulse" style="animation-delay:.6s" cx="292" cy="166" r="4" fill="#8250df"/>
+<circle class="pulse" style="animation-delay:1.2s" cx="608" cy="84" r="4" fill="#0969da"/>
+<circle class="pulse" style="animation-delay:1.8s" cx="608" cy="166" r="4" fill="#8250df"/>
+</svg>
