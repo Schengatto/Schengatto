@@ -31,7 +31,6 @@
 
 - **Ship AI into real products.** RAG assistants in production for accountants, a white-label assistant on Kubernetes with per-request cost tracking, an AI news pipeline scoring articles per asset.
 - **Build the tooling that makes AI agents useful to a team.** Shared memory and agent-driven project management over MCP, used every day by the teams I lead.
-- **Make the whole team work better.** I look for what slows the team down and fix it, from the working methods we use to share knowledge and manage tasks to the tools the team turns out to need. Workspace and Archivist started this way.
 - **Lead delivery end to end.** Architecture, QA strategy, CI/CD and on-call for a 6-10 person team on a tokenized-fund platform (frontend, backend, Web3).
 
 ## Flagship: Codepress Workspace
@@ -51,15 +50,15 @@ refined, built and reviewed in the same place, by people in the browser and by c
 - Shared agent memory ([Archivist](https://github.com/Schengatto/archivist)) is linked per project, so every session starts from what the team already learned.
 - Build-vs-buy decided on a benchmark: 20 concurrent agents at p95 100 ms, against 25.4 s for a git/markdown board.
 
-<sub>Node.js 24 · TypeScript strict · SQLite · MCP · server-rendered UI · self-hosted · sole author · runs my own teams' work every day</sub>
+<sub>Node.js 24 · TypeScript strict · SQLite · MCP · server-rendered UI · self-hosted · 600+ commits, sole author · runs my own teams' work every day</sub>
 
 ## AI-native engineering
 
 | Project | What it is | Proof |
 | --- | --- | --- |
-| **[Archivist](https://github.com/Schengatto/archivist)** | Shared long-term memory for teams of coding agents (Claude Code, Codex, Cursor), served as a remote MCP server. Append-only writes with merge-on-read compaction, hybrid full-text + vector search ranked with RRF, per-team isolation, npm client [`archivist-connect`](https://www.npmjs.com/package/archivist-connect). No LLM on the server, so cost stays flat and predictable. | in daily production since July 2026 |
+| **[Archivist](https://github.com/Schengatto/archivist)** | Shared long-term memory for teams of coding agents (Claude Code, Codex, Cursor), served as a remote MCP server. Append-only writes with merge-on-read compaction, hybrid full-text + vector search ranked with RRF, per-team isolation, npm client [`archivist-connect`](https://www.npmjs.com/package/archivist-connect). No LLM on the server, so cost stays flat and predictable. | v1.2.0 · 570+ tests · in daily production since July 2026 |
 | **[Commercialista AI](https://commercialista-ai.codepress.it/login)** | RAG assistant on Italian tax law, in production for accountants, with topic gating and role-based access. | in production |
-| **ai-assistant** | White-label RAG framework extracted from Commercialista AI: on-premise and air-gappable, with a local-LLM provider. Powers the AI assistant of the Witzard portfolio-analytics platform. | installable release with CI |
+| **ai-assistant** | White-label RAG framework extracted from Commercialista AI: on-premise and air-gappable, with a local-LLM provider. Powers the AI assistant of the Witzard portfolio-analytics platform. | 619 tests · installable release with CI |
 
 <sub>Python · FastAPI · Next.js · PostgreSQL + pgvector · Gemini · local LLMs · Docker · Kubernetes</sub>
 
@@ -79,7 +78,7 @@ refined, built and reviewed in the same place, by people in the browser and by c
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| **[GitPress](https://github.com/Schengatto/git-press)** · [site](https://schengatto.github.io/git-press/) | Cross-platform desktop Git GUI: virtualized commit graph, hunk staging, drag-and-drop interactive rebase. Installers for Windows, macOS and Linux. | Electron · React · TypeScript |
+| **[GitPress](https://github.com/Schengatto/git-press)** · [site](https://schengatto.github.io/git-press/) | Cross-platform desktop Git GUI: virtualized commit graph, hunk staging, drag-and-drop interactive rebase. 10 releases up to v1.0.0, installers for Windows, macOS and Linux. | Electron · React · TypeScript |
 | **[trade-republic-analyzer](https://github.com/Schengatto/trade-republic-analyzer)** · [live](https://schengatto.github.io/trade-republic-analyzer/) | Drop in a Trade Republic CSV and get realized P&L matched FIFO, monthly figures and per-security breakdown. The file never leaves the browser. | TypeScript · client-side only |
 | **[mailstore-linux](https://github.com/Schengatto/mailstore-linux)** | Read-only IMAP archiver: a deduplicated, full-text-searchable local archive in one relocatable folder. Never writes to the server. | Electron · React · TypeScript · SQLite |
 | **[create-agentic-project](https://github.com/Schengatto/create-agentic-project)** | CLI that scaffolds agent-ready repos: instruction rules, agent memory, review, security and testing gates. | TypeScript · Node.js |
@@ -109,13 +108,11 @@ For me, building software means owning everything between the idea and the momen
 | | |
 | --- | --- |
 | **AI & LLM** | Claude models · GPT models · Gemini · local LLMs · AI gateways (OmniRoute) · MCP servers · RAG with pgvector, hybrid search and embeddings · structured output · AI cost control |
-| **Backend** | TypeScript and Node.js (NestJS, Fastify, Express, Hono) · Python (FastAPI, Django) · Java and Spring · C# and .NET |
-| **Data** | PostgreSQL · MySQL and MariaDB · MongoDB · SQLite · Elasticsearch · Prisma |
-| **Frontend** | TypeScript and JavaScript · React · Next.js · Vue · Nuxt · Angular · Electron · HTML and CSS · jQuery · WCAG accessibility |
-| **Cloud & DevOps** | AWS (ECS, Lambda, API Gateway, CloudFront, RDS, Cognito) · Docker · Kubernetes · Terraform · GitHub Actions · GitLab CI/CD · Nginx · Apache · Datadog · Grafana · ELK Stack |
-| **Integrations** | Web3 and blockchain (Chainlink CCIP) · DocuSign · Contentful headless CMS |
-| **Quality** | TDD · BDD with Cucumber · Playwright · Cypress · Synpress · Selenium · Vitest · Jest · pytest · SAST in CI |
-| **Team & process** | Working methods for knowledge sharing and task management · internal tooling built on the team's needs · mentorship · Git · Jira |
+| **Backend** | TypeScript and Node.js (NestJS, Fastify, Hono) · Python (FastAPI) · Java and Spring · C# and .NET |
+| **Data** | PostgreSQL · MongoDB · SQLite · Elasticsearch · Prisma |
+| **Frontend** | React · Next.js · Vue · Nuxt · Angular · Electron · WCAG accessibility |
+| **Cloud & DevOps** | AWS (ECS, Lambda, API Gateway, CloudFront, RDS, Cognito) · Docker · Kubernetes · Terraform · GitHub Actions · Datadog · Grafana |
+| **Quality** | TDD · BDD with Cucumber · Playwright · Vitest · Jest · pytest · SAST in CI |
 
 </details>
 
